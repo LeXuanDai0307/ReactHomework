@@ -1,0 +1,25 @@
+.product__container {
+    width: 100%;
+}
+.product__list {
+    list-style: none;
+    padding: 0;
+}
+
+.product__item {
+    display: flex;
+}
+
+.product__item-name {
+    flex: 4;
+}
+.product__item-price {
+    flex: 2;
+}
+.product__item-add {
+    flex: 1;
+}
+
+.product__item-infor {
+    margin: 16px 0;
+}

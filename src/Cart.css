@@ -1,0 +1,30 @@
+.cart__container {
+    width: 100%;
+}
+.cart__list {
+    list-style: none;
+    padding: 0;
+}
+
+.cart__item {
+    display: flex;
+}
+
+.cart__item-name {
+    flex: 4;
+}
+.cart__item-price {
+    flex: 2;
+}
+.cart__item-add {
+    flex: 1;
+}
+
+.cart__item-infor {
+    margin: 16px 0;
+}
+
+.cart__item-remove {
+    display: flex;
+    justify-content: flex-end;
+}
